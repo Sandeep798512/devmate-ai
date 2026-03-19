@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DevMate AI</title>
+</head>
+<body>
+  <h1>DevMate AI</h1>
+
+  <textarea id="input" placeholder="Enter question or code"></textarea><br>
+
+  <input id="repo" placeholder="GitHub Repo URL" /><br>
+
+  <button onclick="ask()">Ask</button>
+  <button onclick="bug()">Detect Bug</button>
+  <button onclick="summary()">Summarize</button>
+
+  <input type="file" id="file" />
+  <button onclick="upload()">Upload</button>
+
+  <pre id="output"></pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
